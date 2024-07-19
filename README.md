@@ -1,1 +1,5 @@
 # Internship-Tasks
+
+Beginner and Intermediate Level Tasks
+
+This repository showcases a series of beginner and intermediate level web development tasks that I've completed as part of my learning journey. For the beginner level, I've focused on fundamental web development skills, including creating a basic HTML page, styling it with CSS, and adding interactivity using JavaScript. Each task is designed to build a solid foundation in web technologies and improve my understanding of essential web development principles. Moving to the intermediate level, I've taken on more complex projects such as building a responsive multi-page website, implementing dynamic content loading with JavaScript, and setting up a simple Node.js server to handle HTTP requests and responses. These tasks have helped me gain proficiency in advanced HTML and CSS, JavaScript asynchronous programming, and server-side development with Node.js. Each task is documented with clear instructions and code examples to illustrate the concepts and techniques used.
