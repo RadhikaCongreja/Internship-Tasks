@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home" style="height: 600px">
+        <h1>Welcome to Our Website</h1>
+        <p>This is the home section of the webpage.</p>
+        <p>We are pleased to have you on our website.</p>
+        <div class="content">
+          <h3>
+            Escape the ordinary, embrace the extraordinary. <br />
+            Find your cup of comfort here.
+          </h3>
+          <p>
+            Indulge your senses and awaken your spirit with our handcrafted
+            coffee beverages. We use only the finest ethically sourced beans,<br />
+            roasted to perfection, to create a cup that will tantalize your
+            taste buds. Whether you need a morning pick-me-up<br />
+            or a relaxing afternoon treat, we have the perfect cup for you.
+          </p>
+          <br />
+          <button id="homeColorButton">Change Home Color</button>
+        </div>
+      </section>
+      <hr />
+      <section id="about" style="height: 600px">
+        <h1>About Us</h1>
+        <p>Learn more about us in this section.</p>
+        <div class="col-md-6">
+          <h3>What Makes Our Coffee Special?</h3>
+          <p>
+            <b>Beyond the Bean: A Symphony of Flavor: </b>
+            Our coffee isn't just a drink; it's a captivating experience for
+            your taste buds. Here's what sets our cup apart:
+            <br /><br />
+            <b>Ethically Sourced, Exceptionally Brewed:</b>
+            We embark on global journeys to source the finest beans from
+            renowned regions. We prioritize ethical trade and sustainable
+            practices, ensuring the quality of every cup supports a brighter
+            future for coffee-growing communities.
+            <br />
+            <br />
+          </p>
+          <button id="aboutColorButton">Change About Color</button>
+        </div>
+      </section>
+      <hr />
+      <section id="contact" style="height: 600px">
+        <h1>Contact Us</h1>
+        <p>Get in touch with us through this section.</p>
+        <p>
+          Get in touch! We'd love to hear from you. <br />Drop us a line! We're
+          here to answer your questions.
+        </p>
+        <form id="contact-form">
+          <div class="mb-3">
+            <input
+              class="form-control"
+              type="text"
+              id="name"
+              placeholder="Name"
+              aria-label="default input example"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              class="form-control"
+              type="email"
+              id="email"
+              placeholder="Email"
+              aria-label="default input example"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              class="form-control"
+              type="text"
+              id="number"
+              placeholder="Number"
+              aria-label="default input example"
+            />
+          </div>
+          <div class="mb-3">
+            <textarea
+              class="form-control"
+              id="message"
+              rows="3"
+              placeholder="Write your message here..."
+              required
+            ></textarea>
+          </div>
+          <button id="contactColorButton" type="button">
+            Change Contact Color
+          </button>
+          <button id="contact-btn" type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 My Company. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
